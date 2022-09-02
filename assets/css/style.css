@@ -56,11 +56,11 @@ h6 {
 }
 
 .bg-i {
-    width: 30vw;
-    min-width: 500px;
+    width: 25vw;
+    min-width: 400px;
     position: absolute;
     bottom: 0px;
-    right: 0px;
+    right: 30px;
     animation: fadeIn 2s;
 }
 
@@ -198,11 +198,23 @@ h6 {
 }
 
 @media (max-width: 768px) {
+    .bg-i {
+        width: 25vw;
+        min-width: 360px;
+        right: 10px;
+    }
     #header.header-top {
         height: 60px;
     }
     #header.header-top h1 {
         font-size: 26px;
+    }
+}
+
+@media (max-width: 320px) {
+    .bg-i {
+        min-width: 300px;
+        right: 10px;
     }
 }
 
